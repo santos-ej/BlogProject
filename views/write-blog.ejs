@@ -1,0 +1,21 @@
+<%- include('partials/header.ejs') %>
+
+<form method="POST"> 
+    <div class="container my-5">
+        <div class="p-5 text-center bg-body-tertiary rounded-3">
+            <h1 class="text-body-emphasis">Write a blog</h1>
+            <div class="mb-3">
+                <label>Title</label>
+                <input class="form-control" id="exampleFormControlTextarea1" rows="3" name="title" required></input>
+            </div>
+            <label>Content</label>
+            <div class="mb-3">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="content" required></textarea>
+            </div>
+            <button class="w-30 btn btn-lg btn-primary  mt-2" type="submit" >Publish Content </button>
+            <button class="w-30 btn btn-lg btn-secondary  mt-2" type="button" onclick="location.href='/home';" >Cancel</button>
+        </div>
+    </div>
+</form>
+
+<%- include('partials/footer.ejs') %>

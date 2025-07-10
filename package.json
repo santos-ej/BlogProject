@@ -1,0 +1,24 @@
+{
+  "name": "section26-capstone-project_make-a-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "bootstrap": "^5.3.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "express-session": "^1.18.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "session": "^0.1.0",
+    "url": "^0.11.4"
+  }
+}

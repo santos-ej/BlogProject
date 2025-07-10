@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "username": "testing1@fakemail.com",
+    "password": "1234",
+    "email": "testing1@fakemail.com",
+    "fullName": "testing1@fakemail.com",
+    "createdAt": "2025-06-16T15:34:47.291Z",
+    "isActive": true
+  },
+  {
+    "id": 2,
+    "username": "testing2@fakemail.com",
+    "password": "1234",
+    "email": "testing2@fakemail.com",
+    "fullName": "testing2@fakemail.com",
+    "createdAt": "2025-06-16T15:35:00.489Z",
+    "isActive": true
+  },
+  {
+    "id": 3,
+    "username": "testing3@fakemail.com",
+    "password": "1234",
+    "email": "testing3@fakemail.com",
+    "fullName": "testing3@fakemail.com",
+    "createdAt": "2025-06-16T15:35:13.371Z",
+    "isActive": true
+  },
+  {
+    "id": 4,
+    "username": "testing4@fakemail.com",
+    "password": "1234",
+    "email": "testing4@fakemail.com",
+    "fullName": "testing4@fakemail.com",
+    "createdAt": "2025-06-21T07:54:36.390Z",
+    "isActive": true
+  },
+  {
+    "id": 5,
+    "username": "testing5@fakemail.com",
+    "password": "1234",
+    "email": "testing5@fakemail.com",
+    "fullName": "testing5@fakemail.com",
+    "createdAt": "2025-06-21T07:58:32.750Z",
+    "isActive": true
+  },
+  {
+    "id": 6,
+    "username": "testing7@fakemail.com",
+    "password": "1234",
+    "email": "testing7@fakemail.com",
+    "fullName": "testing7@fakemail.com",
+    "createdAt": "2025-06-22T15:20:11.729Z",
+    "isActive": true
+  },
+  {
+    "id": 7,
+    "username": "testing8@fakemail.com",
+    "password": "1234",
+    "email": "testing8@fakemail.com",
+    "fullName": "testing8@fakemail.com",
+    "createdAt": "2025-06-22T15:22:47.405Z",
+    "isActive": true
+  },
+  {
+    "id": 8,
+    "username": "testing9@fakemail.com",
+    "password": "1234",
+    "email": "testing9@fakemail.com",
+    "fullName": "testing9@fakemail.com",
+    "createdAt": "2025-06-22T15:24:33.109Z",
+    "isActive": true
+  },
+  {
+    "id": 9,
+    "username": "testing10@fakemail.com",
+    "password": "1234",
+    "email": "testing10@fakemail.com",
+    "fullName": "testing10@fakemail.com",
+    "createdAt": "2025-06-22T15:27:31.064Z",
+    "isActive": true
+  }
+]

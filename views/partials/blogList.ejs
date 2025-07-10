@@ -1,0 +1,32 @@
+<div class="container container px-4 py-5">
+    <div class="container px-4 py-5">
+      <h2 class="pb-2 border-bottom">Featured Blogs</h2>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <% otherBlogItems.forEach(function(item) { %>
+      <div class="col">
+        <div class="card shadow-sm">
+          <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                      <image href="/images/default_thumbnail.svg" width="100%" height="100%"> 
+          </svg>
+          <div class="card-body">
+            <p class="card-text"> <%= item.title %></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='/view-blog/<%= item.id %>'">View</button>
+                    <%
+                    if( locals.username === item.createdBy)
+                    {
+                    %> 
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    <%}%> 
+                    </div>
+              <small class="text-body-secondary"><%= item.createdAt%></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <%  }); %>
+
+    </div>
+  </div>
+</div>

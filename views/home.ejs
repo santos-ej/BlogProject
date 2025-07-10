@@ -1,0 +1,16 @@
+<%- include('partials/header.ejs') %>
+
+<div class="px-4 py-5 my-5 text-center">
+    <h1 class="display-5 text-body-emphasis">Hello! </h1>
+    <h1 class="display-5 fw-bold text-body-emphasis"><%= username %></h1>
+    <br>
+    <div class="col-lg-6 mx-auto">
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <button type="button" class="btn btn-primary btn-lg px-4 gap-3" onclick="location.href='/write-blog';">Write a Blog</button>
+      </div>
+    </div>
+  </div>
+
+ <%- include('partials/blogListUser.ejs') %>
+ <%- include('partials/blogList.ejs') %>
+<%- include('partials/footer.ejs') %>
