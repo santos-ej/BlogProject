@@ -251,7 +251,7 @@ app.post('/sign-up', (req, res) => {
   saveAccount(accounts);
 
   req.session.toast = { type: 'success', message: 'Account has been created.' };
-  res.render ('home?1success=1'); 
+  res.render ('/login'); 
 
 });
  
